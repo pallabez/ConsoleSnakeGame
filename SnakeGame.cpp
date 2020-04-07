@@ -14,7 +14,7 @@ eDirection dir;
 void Setup() {
     nTail = 0;
     gameOver = false;
-    dir = STOP;                     //Initializes the to be in stopping position
+    dir = STOP;                     //Initializes the snake to be in stopping position
     x = width / 2;                  //Sets the starting point at middle of the map
     y = height / 2;                 //Same as above
     fruitX = (rand() % width) + 1;  //+1 so that the fruit doesn't spawn in the border 
